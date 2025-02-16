@@ -1,1 +1,1 @@
-# -CPPF-Point-Cloud-Registration
+# CPPF Point Cloud Registration
