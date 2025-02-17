@@ -16,7 +16,7 @@ Point cloud registration is a crucial task in 3D computer vision, but current me
 Download [ModelNet40](https://modelnet.cs.princeton.edu) from [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) [435M].
 
 
-## Model Training
+## Training
 
 ```bash
 mkdir cppfnet && cd cppfnet
@@ -50,7 +50,7 @@ This script performs inference on the trained model, and computes evaluation met
 python eval.py --noise_type clean --resume [path-to-logs/ckpt/model-best.pth]
 ```
 
-##Registration Visualization
+## Visualization
 
 ```bash
 python vis.py --noise_type crop --resume [path-to-model.pth] --dataset_path [your_path]
