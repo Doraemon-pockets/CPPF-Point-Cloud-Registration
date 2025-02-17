@@ -3,4 +3,4 @@
 
 Enhanced Point Pair Features for Point Cloud Registration.
 
-![](./common/vis.png)
+![](./common/Network.jpg)
