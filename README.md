@@ -20,7 +20,7 @@ Download [ModelNet40](https://modelnet.cs.princeton.edu) from [here](https://sha
 
 ```bash
 mkdir cppfnet && cd cppfnet
-git clone git@github.com:Doraemon-pockets/CPPF-Point-Cloud-Registration.git
+git clone git@github.com:Doraemon-pockets/CPPFNet.git
 python train.py --noise_type crop
 ```
 
