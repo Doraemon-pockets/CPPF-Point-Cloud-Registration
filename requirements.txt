@@ -1,6 +1,5 @@
 coloredlogs
 GitPython
-h5py
 matplotlib
 numpy
 openpyxl
@@ -12,3 +11,4 @@ torch
 torchvision
 tqdm
 xlrd
+h5py
