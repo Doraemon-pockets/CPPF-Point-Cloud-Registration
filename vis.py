@@ -3,7 +3,6 @@
 Example Usages:
     1. Visualize CPPFNet
         python vis.py --noise_type crop --resume [path-to-model.pth] --dataset_path [your_path]/modelnet40_ply_hdf5_2048
-########python vis.py --noise_type clean --resume model-best0602.pth --dataset_path ../dataset/modelnet40_ply_hdf5_2048
 """
 import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
