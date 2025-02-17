@@ -1,6 +1,6 @@
-# CPPF Point Cloud Registration
+# Enhanced Point Pair Features for Point Cloud Registration
+
 ## Abstract
-Enhanced Point Pair Features for Point Cloud Registration
 
 Point cloud registration is a crucial task in 3D computer vision, but current methods face challenges such as complex geometric shapes, noise, and missing data in the target cloud. These challenges often lead to time-consuming point pair feature extraction and insufficient extraction of effective features, thereby reducing registration efficiency. To address this, our research introduces a method that combines adaptive downsampling and curvature enhancement for point pair feature extraction, aiming to achieve efficient point cloud registration. Our method utilizes adaptive downsampling based on normal angle perception to balance information preservation and computational complexity. We propose the Curvature-Enhanced Point Pair Feature (CPPF) module to enhance the capture of local features, improving sensitivity to geometric changes. The attention mechanism module integrates local and global features, enhancing representational capacity and information richness. Experiments conducted on ModelNet40 and real industrial components demonstrate that our method performs well across various scenarios, surpassing existing methods.
 
@@ -48,4 +48,10 @@ This script performs inference on the trained model, and computes evaluation met
 
 ```bash
 python eval.py --noise_type clean --resume [path-to-logs/ckpt/model-best.pth]
+```
+
+##Registration Visualization
+
+```bash
+python vis.py --noise_type crop --resume [path-to-model.pth] --dataset_path [your_path]
 ```
